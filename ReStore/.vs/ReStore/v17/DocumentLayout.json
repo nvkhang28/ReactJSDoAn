@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\H\u1ECDc Th\u00EAm\\KhoaHoCReact\\ReactBassic\\ReStore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC64C19-AD33-476B-92DD-6C15C6E14DE3}|API\\API.csproj|d:\\h\u1ECDc th\u00EAm\\khoahocreact\\reactbassic\\restore\\api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC64C19-AD33-476B-92DD-6C15C6E14DE3}|API\\API.csproj|solutionrelative:api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC64C19-AD33-476B-92DD-6C15C6E14DE3}|API\\API.csproj|d:\\h\u1ECDc th\u00EAm\\khoahocreact\\reactbassic\\restore\\api\\api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{2FC64C19-AD33-476B-92DD-6C15C6E14DE3}|API\\API.csproj|solutionrelative:api\\api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC64C19-AD33-476B-92DD-6C15C6E14DE3}|API\\API.csproj|d:\\h\u1ECDc th\u00EAm\\khoahocreact\\reactbassic\\restore\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2FC64C19-AD33-476B-92DD-6C15C6E14DE3}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "API.http",
+              "DocumentMoniker": "D:\\H\u1ECDc Th\u00EAm\\KhoaHoCReact\\ReactBassic\\ReStore\\API\\API.http",
+              "RelativeDocumentMoniker": "API\\API.http",
+              "ToolTip": "D:\\H\u1ECDc Th\u00EAm\\KhoaHoCReact\\ReactBassic\\ReStore\\API\\API.http",
+              "RelativeToolTip": "API\\API.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-07-01T16:22:03.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\H\u1ECDc Th\u00EAm\\KhoaHoCReact\\ReactBassic\\ReStore\\API\\appsettings.json",
+              "RelativeDocumentMoniker": "API\\appsettings.json",
+              "ToolTip": "D:\\H\u1ECDc Th\u00EAm\\KhoaHoCReact\\ReactBassic\\ReStore\\API\\appsettings.json",
+              "RelativeToolTip": "API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-01T16:21:55.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\H\u1ECDc Th\u00EAm\\KhoaHoCReact\\ReactBassic\\ReStore\\API\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\H\u1ECDc Th\u00EAm\\KhoaHoCReact\\ReactBassic\\ReStore\\API\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "API\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T16:21:16Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

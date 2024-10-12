@@ -1,17 +1,39 @@
-
-
-using System.Collections.ObjectModel;
 using API.Entities;
-using Microsoft.VisualBasic;
+using Microsoft.AspNetCore.Identity;
 
-namespace API.Data
+namespace API.Data;
+
+public static class DbInitializer
 {
-    public static class Dblnitializer
+    //Intitalize đc sd để khởi tạo dữ liệu trong csdl chưa tồn tại
+    // sd StoreContext cho thao tác csdl ching và User(User) để quản lí người dùng trong hệ thống
+    public static async Task Initialize(StoreContext context, UserManager<User> userManager)
     {
-        public static void Initializer(StoreContext context)
+        //Kiểm tra xem có bất kỳ người dùng nào đã tồn tại trong hệ thống hay không. Nếu không có người dùng nào (Users.Any() trả về false), nó sẽ tiếp tục khối mã bên trong.
+        if (!userManager.Users.Any())
         {
-            if (context.Products.Any()) return;
-            var products = new List<Product>
+            var user = new User
+            {
+                UserName = "bob",
+                Email = "bob@test.com"
+            };
+
+            await userManager.CreateAsync(user, "Pa$$w0rd");
+            await userManager.AddToRoleAsync(user, "Member");
+
+            var admin = new User
+            {
+                UserName = "admin",
+                Email = "admin@test.com"
+            };
+
+            await userManager.CreateAsync(admin, "Pa$$w0rd");
+            await userManager.AddToRolesAsync(admin, new[] { "Admin", "Member" });
+        }
+
+        if (context.Products.Any()) return;
+
+        var products = new List<Product>
             {
                 new Product
                 {
@@ -210,11 +232,12 @@ namespace API.Data
                     QuantityInStock = 100
                 },
             };
-            foreach (var product in products)
-            {
-                context.Products.Add(product);
-            }
-            context.SaveChanges();
+
+        foreach (var product in products)
+        {
+            context.Products.Add(product);
         }
+
+        context.SaveChanges();
     }
 }
